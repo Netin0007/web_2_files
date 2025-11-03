@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+label, input, button {
+    display: block;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 250px;
+}
+
+button {
+    padding: 8px;
+    margin-top: 10px;
+}
+
+[cite_start]
+.resultado {
+    margin-top: 15px;
+}
+
+.sucesso {
+    color: green;
+    font-weight: bold;
+}
+
+.erro {
+    color: red;
+    font-weight: bold;
+}

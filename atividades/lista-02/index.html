@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista 02 - DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Lista Prática 02: DOM e Eventos</h1>
+
+    <section>
+        <h2>1. Promoção na Farmácia</h2>
+        <form id="form-farmacia">
+            <div>
+                <label for="medicamento">Medicamento:</label>
+                <input type="text" id="medicamento">
+            </div>
+            <div>
+                <label for="preco-farmacia">Preço R$:</label>
+                <input type="number" id="preco-farmacia" step="0.01">
+            </div>
+            <button type="submit">Calcular Promoção</button>
+        </form>
+        <div id="resultado-farmacia" class="resultado"></div>
+    </section>
+
+    <section>
+        <h2>2. Lan House do Aeroporto</h2>
+        <form id="form-lanhouse">
+            <div>
+                <label for="valor-15min">Valor a cada 15 min (R$):</label>
+                <input type="number" id="valor-15min" step="0.01">
+            </div>
+            <div>
+                <label for="tempo-uso">Tempo de uso (min):</label>
+                <input type="number" id="tempo-uso" step="1">
+            </div>
+            <button type="submit">Calcular Valor</button>
+        </form>
+        <div id="resultado-lanhouse" class="resultado"></div>
+    </section>
+
+    <section>
+        <h2>3. Promoção no Supermercado</h2>
+        <form id="form-supermercado">
+            <div>
+                <label for="produto">Produto:</label>
+                <input type="text" id="produto">
+            </div>
+            <div>
+                <label for="preco-supermercado">Preço R$:</label>
+                <input type="number" id="preco-supermercado" step="0.01">
+            </div>
+            <button type="submit">Ver Promoção</button>
+        </form>
+        <div id="resultado-supermercado" class="resultado"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
