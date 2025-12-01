@@ -1,0 +1,17 @@
+Exercício 1.3
+
+O Rest separa as props internas das que vão para o HTML, juntando os atributos nativos num único objeto.
+O Spread respeita a ordem: o que vem por último sobrescreve o anterior, garantindo que as configurações do usuário (ou regras finais) tenham prioridade.
+
+Exercício 2.2
+
+O dispositivo 3 retorna 0 porque o ?? só troca valores que são null ou undefined, e zero é válido.
+O dispositivo 2 retorna -1 porque info é null; o optional chaining para a execução, gera undefined e então o ?? usa o valor padrão.
+
+Exercício 3.2
+
+Tentar acessar #saldo diretamente causa erro porque campos privados só podem ser usados dentro da classe. Isso garante encapsulamento e impede alterar o saldo sem passar pelas regras dos métodos.
+
+Exercício 4.1
+
+Para módulos funcionarem no navegador, o script precisa ter type="module". Sem isso, import e export não funcionam e o navegador gera erro.
